@@ -1,0 +1,8 @@
+{
+  "admin": {
+    "record_saving_enabled": true
+  },
+  "test123": {
+    "record_saving_enabled": true
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "test123": {
+    "snapshots": [
+      {
+        "action_status": "none",
+        "anxiety": 0.3555,
+        "created_at": "2026-06-22T20:23:54",
+        "energy": 0.5,
+        "intent_label": "WORK_OR_STUDY_STRESS",
+        "risk_stage": "관심",
+        "selected_cause": "exam_assignment_pressure",
+        "sleep": 0.5,
+        "small_action": "전부 하려고 하지 말고, 과제나 공부에서 가장 쉬운 부분을 딱 10분만 시작해볼까?",
+        "stress": 0.3555
+      },
+      {
+        "action_status": "none",
+        "anxiety": 0.3772,
+        "created_at": "2026-06-22T20:24:10",
+        "energy": 0.5,
+        "intent_label": "ANXIETY_SUPPORT",
+        "risk_stage": "관심",
+        "selected_cause": "exam_assignment_pressure",
+        "sleep": 0.5,
+        "small_action": "해야 할 일을 전부 보지 말고, 과제 하나나 시험 범위 하나를 골라 첫 10분만 시작해보세요.",
+        "stress": 0.3772
+      },
+      {
+        "action_status": "none",
+        "anxiety": 0.33,
+        "created_at": "2026-06-22T20:31:06",
+        "energy": 0.5,
+        "intent_label": "OTHER_CONCERN",
+        "risk_stage": "관심",
+        "sleep": 0.5,
+        "small_action": "지금은 숨을 고르고, 오늘 할 수 있는 가장 작은 한 가지를 선택해 보세요.",
+        "stress": 0.33
+      },
+      {
+        "action_status": "none",
+        "anxiety": 0.33,
+        "created_at": "2026-06-22T20:41:10",
+        "energy": 0.5,
+        "intent_label": "OTHER_CONCERN",
+        "risk_stage": "관심",
+        "sleep": 0.5,
+        "small_action": "지금은 숨을 고르고, 오늘 할 수 있는 가장 작은 한 가지를 선택해 보세요.",
+        "stress": 0.33
+      },
+      {
+        "action_status": "none",
+        "anxiety": 0.33,
+        "created_at": "2026-06-22T20:43:06",
+        "energy": 0.5,
+        "intent_label": "OTHER_CONCERN",
+        "risk_stage": "관심",
+        "sleep": 0.5,
+        "small_action": "지금은 숨을 고르고, 오늘 할 수 있는 가장 작은 한 가지를 선택해 보세요.",
+        "stress": 0.33
+      },
+      {
+        "anxiety": 3.0,
+        "created_at": "2026-06-22T20:45:09",
+        "energy": 3.0,
+        "risk_stage": "위험",
+        "sleep": 3.0,
+        "stress": 3.0
+      },
+      {
+        "action_status": "none",
+        "anxiety": 0.33,
+        "created_at": "2026-06-22T20:45:34",
+        "energy": 0.5,
+        "intent_label": "STRESS_SUPPORT",
+        "risk_stage": "관심",
+        "selected_cause": "overload",
+        "sleep": 0.5,
+        "small_action": "전부 하려고 하지 말고, 과제나 공부에서 가장 쉬운 부분을 딱 10분만 시작해볼까?",
+        "stress": 0.33
+      },
+      {
+        "anxiety": 3.0,
+        "created_at": "2026-06-22T20:45:41",
+        "energy": 3.0,
+        "risk_stage": "위험",
+        "sleep": 3.0,
+        "stress": 3.0
+      },
+      {
+        "anxiety": 3.0,
+        "created_at": "2026-06-22T20:45:46",
+        "energy": 3.0,
+        "risk_stage": "위험",
+        "sleep": 3.0,
+        "stress": 3.0
+      },
+      {
+        "action_status": "none",
+        "anxiety": 0.3555,
+        "created_at": "2026-06-22T20:46:13",
+        "energy": 0.5,
+        "intent_label": "STRESS_SUPPORT",
+        "risk_stage": "관심",
+        "selected_cause": "overload",
+        "sleep": 0.5,
+        "small_action": "방금 떠오른 문제를 한 문장으로 적고, 지금 바로 할 수 있는 첫 행동 하나만 골라보세요.",
+        "stress": 0.3555
+      }
+    ]
+  }
+}

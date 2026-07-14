@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Psychologist Agent</string>
+    <string name="chat_title">상담 채팅</string>
+    <string name="emotion_title">오늘의 감정 체크</string>
+    <string name="crisis_title">위기 도움</string>
+    <string name="contacts_title">긴급 연락처</string>
+    <string name="privacy_title">개인정보 보호</string>
+</resources>

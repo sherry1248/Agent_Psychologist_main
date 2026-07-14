@@ -1,0 +1,134 @@
+{
+  "crisis_responses": {
+    "immediate_danger": {
+      "message": "109 / 119 / 112: 한국에서는 지금 바로 109(자살예방), 119(응급), 112(경찰)로 연락하세요. 지금 상황은 응급 지원이 필요한 위기일 수 있습니다. 미국에서는 988(Suicide & Crisis Lifeline)으로 즉시 연락하고, 즉각적인 위험이 있으면 911로 전화하세요. 당신은 혼자가 아니며 훈련된 위기 상담가가 24시간 도움을 줄 수 있습니다. 이 AI는 의료 진단이나 치료를 제공하지 않습니다.",
+      "resources": [
+        {
+          "name": "Korea Suicide Prevention Hotline",
+          "phone": "109",
+          "description": "24/7 crisis and suicide prevention support in Korea"
+        },
+        {
+          "name": "Emergency Services Korea",
+          "phone": "119",
+          "description": "Emergency medical services in Korea"
+        },
+        {
+          "name": "Police Korea",
+          "phone": "112",
+          "description": "Police emergency line in Korea"
+        },
+        {
+          "name": "988 Suicide & Crisis Lifeline",
+          "phone": "988",
+          "description": "24/7 crisis support"
+        },
+        {
+          "name": "Crisis Text Line",
+          "text": "HOME to 741741",
+          "description": "Text-based crisis support"
+        },
+        {
+          "name": "Emergency Services",
+          "phone": "911",
+          "description": "For immediate danger"
+        }
+      ],
+      "action": "ESCALATE_IMMEDIATELY"
+    },
+    "self_harm_intent": {
+      "message": "109 / 119 / 112: 한국에서는 지금 바로 109(자살예방), 119(응급), 112(경찰)로 연락하세요. 지금 느끼는 고통은 현실이며, 혼자 견디지 않아도 됩니다. 미국에서는 988 Suicide & Crisis Lifeline에 전화하거나 문자를 보내세요. 훈련된 상담가가 24시간 도움을 줄 수 있습니다. 이 AI는 의료 진단이나 치료를 제공하지 않습니다.",
+      "resources": [
+        {
+          "name": "Korea Suicide Prevention Hotline",
+          "phone": "109",
+          "description": "24/7 crisis and suicide prevention support in Korea"
+        },
+        {
+          "name": "Emergency Services Korea",
+          "phone": "119",
+          "description": "Emergency medical services in Korea"
+        },
+        {
+          "name": "Police Korea",
+          "phone": "112",
+          "description": "Police emergency line in Korea"
+        },
+        {
+          "name": "988 Suicide & Crisis Lifeline",
+          "phone": "988",
+          "description": "24/7 crisis support"
+        },
+        {
+          "name": "Crisis Text Line",
+          "text": "HOME to 741741",
+          "description": "Text-based crisis support"
+        }
+      ],
+      "action": "PROVIDE_CRISIS_RESOURCES"
+    },
+    "harm_to_others": {
+      "message": "109 / 119 / 112: 한국에서는 지금 바로 109(자살예방), 119(응급), 112(경찰)로 연락하세요. 누군가를 다치게 할 생각이 든다면 지금 즉시 도움을 받아야 합니다. 미국에서는 988으로 바로 연락하세요. 안전하게 감정을 다룰 수 있도록 도움을 받는 것이 중요합니다. 이 AI는 의료 진단이나 치료를 제공하지 않습니다.",
+      "resources": [
+        {
+          "name": "Korea Suicide Prevention Hotline",
+          "phone": "109",
+          "description": "24/7 crisis and suicide prevention support in Korea"
+        },
+        {
+          "name": "988 Suicide & Crisis Lifeline",
+          "phone": "988",
+          "description": "24/7 mental health crisis support"
+        }
+      ],
+      "action": "PROVIDE_CRISIS_RESOURCES"
+    },
+    "abuse_disclosure": {
+      "message": "109 / 119 / 112: 한국에서는 지금 바로 109(자살예방), 119(응급), 112(경찰)로 연락하세요. 지금 안전을 확보하는 것이 우선입니다. 미국에서는 911 또는 지역 보호 서비스에 바로 연락하세요. 이 AI는 의료 진단이나 치료를 제공하지 않습니다.",
+      "resources": [
+        {
+          "name": "Police Korea",
+          "phone": "112",
+          "description": "Police emergency line in Korea"
+        },
+        {
+          "name": "National Domestic Violence Hotline",
+          "phone": "1-800-799-7233",
+          "description": "24/7 support for domestic violence"
+        },
+        {
+          "name": "Childhelp National Child Abuse Hotline",
+          "phone": "1-800-422-4453",
+          "description": "24/7 support for child abuse"
+        },
+        {
+          "name": "RAINN",
+          "phone": "1-800-656-4673",
+          "description": "Sexual assault support"
+        }
+      ],
+      "action": "PROVIDE_SPECIALIZED_RESOURCES"
+    }
+  },
+  "supportive_responses": {
+    "moderate_risk": {
+      "prefix": "I hear that you're going through a really difficult time. Your feelings are valid, and it takes courage to share them.",
+      "suffix": "Would you like to talk more about what's been happening? I'm here to listen, and if at any point you feel like you need more support, please know that crisis resources like 988 are always available."
+    },
+    "low_risk": {
+      "prefix": "Thank you for sharing that with me. It sounds like you're dealing with a lot right now.",
+      "suffix": "I'm here to help you work through these feelings. What would be most helpful to talk about?"
+    }
+  },
+  "follow_up_prompts": {
+    "safety_check": "Can I ask - are you having any thoughts of hurting yourself or ending your life?",
+    "support_system": "Do you have someone you trust that you can reach out to right now?",
+    "immediate_safety": "Are you in a safe place right now?",
+    "professional_help": "Have you considered speaking with a mental health professional about this?"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-01-31",
+    "description": "Crisis response templates for mental health safety gateway"
+  }
+}

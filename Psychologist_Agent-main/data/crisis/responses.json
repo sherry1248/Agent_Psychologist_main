@@ -1,0 +1,73 @@
+{
+  "crisis_templates": {
+    "immediate_danger": {
+      "priority": 1,
+      "message": "109 / 119 / 112: 한국에서는 지금 바로 109(자살예방), 119(응급), 112(경찰)로 연락하세요. 지금 상황은 즉시 지원이 필요한 위기일 수 있습니다. 미국에서는 아래 번호로 바로 도움을 요청하세요.\n\n[Phone] **988 Suicide & Crisis Lifeline**: Call or text 988\n[Text] **Crisis Text Line**: Text HOME to 741741\n[Emergency] **Emergency**: Call 911 if you're in immediate danger\n\n당신은 혼자가 아니며 훈련된 상담가가 24시간 도움을 줄 수 있습니다. 이 AI는 의료 진단이나 치료를 제공하지 않습니다.\n\nAre you in a safe place right now?",
+      "follow_up": "I'm here with you. While we talk, please consider reaching out to 988 - they can provide immediate support.",
+      "requires_escalation": true
+    },
+    "suicidal_ideation": {
+      "priority": 2,
+      "message": "109 / 119 / 112: 한국에서는 지금 바로 109(자살예방), 119(응급), 112(경찰)로 연락하세요. 지금 느끼는 고통은 현실이며, 혼자 견디지 않아도 됩니다. 미국에서는 988 Suicide & Crisis Lifeline이 24시간 도움을 제공합니다.\n\n[Phone] **Call or text 988** - available 24/7\n[Text] **Text HOME to 741741** for text-based support\n\nCan you tell me more about what you're experiencing right now? This AI does not provide medical diagnosis or treatment.",
+      "follow_up": "Thank you for sharing that with me. Your life matters, and there are people who want to help.",
+      "requires_escalation": true
+    },
+    "self_harm": {
+      "priority": 2,
+      "message": "109 / 119 / 112: 한국에서는 지금 바로 109(자살예방), 119(응급), 112(경찰)로 연락하세요. 자해 충동이 강할 때는 혼자 버티지 말고 즉시 도움을 받는 것이 중요합니다.\n\n[Phone] **988 Suicide & Crisis Lifeline**: Call or text 988\n[Text] **Crisis Text Line**: Text HOME to 741741\n\nSome things that might help right now:\n- Hold ice cubes in your hands\n- Take a cold shower\n- Do intense exercise\n- Write down your feelings\n\nWould you like to talk about what's behind these feelings? This AI does not provide medical diagnosis or treatment.",
+      "follow_up": "I'm glad you're still here talking with me. Let's work through this together.",
+      "requires_escalation": true
+    },
+    "harm_to_others": {
+      "priority": 1,
+      "message": "109 / 119 / 112: 한국에서는 지금 바로 109(자살예방), 119(응급), 112(경찰)로 연락하세요. 타인을 해칠 수 있는 생각이 든다면 지금 즉시 지원을 받아야 합니다.\n\n[Phone] **988 Suicide & Crisis Lifeline**: Call or text 988\n\nIf you're in immediate crisis or someone is in danger, please call 911.\n\nCan we talk about what's causing these thoughts? This AI does not provide medical diagnosis or treatment.",
+      "follow_up": "I appreciate you being honest with me. Getting help is the right thing to do.",
+      "requires_escalation": true
+    },
+    "abuse_disclosure": {
+      "priority": 2,
+      "message": "109 / 119 / 112: 한국에서는 지금 바로 109(자살예방), 119(응급), 112(경찰)로 연락하세요. 학대 상황이라면 지금 안전 확보가 우선입니다.\n\n[Phone] **National Domestic Violence Hotline**: 1-800-799-7233\n[Text] **Text START to 88788**\n[Phone] **RAINN**: 1-800-656-4673 (sexual assault)\n[Phone] **Childhelp**: 1-800-422-4453 (child abuse)\n\nAre you in a safe place right now? This AI does not provide medical diagnosis or treatment.",
+      "follow_up": "Your safety is the priority. These organizations have trained advocates who can help you create a safety plan.",
+      "requires_escalation": true
+    },
+    "substance_crisis": {
+      "priority": 3,
+      "message": "It sounds like you're going through a really difficult time with substance use. You don't have to face this alone.\n\nResources that can help:\n\n[Phone] **SAMHSA National Helpline**: 1-800-662-4357 (24/7, free, confidential)\n[Phone] **988 Suicide & Crisis Lifeline**: Call or text 988\n\nIf you're experiencing a medical emergency (overdose, withdrawal), please call 911.\n\nWould you like to talk about what's been happening?",
+      "follow_up": "Recovery is possible. Taking this step to reach out shows real strength.",
+      "requires_escalation": false
+    },
+    "panic_attack": {
+      "priority": 4,
+      "message": "It sounds like you might be having a panic attack. This is scary, but panic attacks aren't dangerous and they will pass.\n\nLet's try some grounding together:\n\n**Breathe slowly**: Inhale for 4 counts, hold for 4, exhale for 4\n\n**5-4-3-2-1 Grounding**:\n- Name 5 things you can see\n- Name 4 things you can touch\n- Name 3 things you can hear\n- Name 2 things you can smell\n- Name 1 thing you can taste\n\nI'm here with you. How are you feeling right now?",
+      "follow_up": "You're doing great. Panic attacks usually peak within 10 minutes and then start to fade.",
+      "requires_escalation": false
+    },
+    "severe_distress": {
+      "priority": 4,
+      "message": "I can hear that you're really struggling right now. Your feelings are valid, and it's okay to ask for help.\n\nIf things feel overwhelming, remember that support is available:\n\n[Phone] **988 Suicide & Crisis Lifeline**: Call or text 988 anytime\n[Text] **Crisis Text Line**: Text HOME to 741741\n\nI'm here to listen. Would you like to tell me more about what's going on?",
+      "follow_up": "Thank you for sharing. It takes courage to open up about difficult feelings.",
+      "requires_escalation": false
+    }
+  },
+  "validation_phrases": [
+    "I hear you, and what you're feeling is valid.",
+    "Thank you for trusting me with this.",
+    "It takes real courage to share what you're going through.",
+    "Your feelings make sense given what you're experiencing.",
+    "I'm here with you, and you're not alone in this.",
+    "What you're going through sounds incredibly difficult.",
+    "It's okay to feel this way. These are normal responses to difficult situations."
+  ],
+  "safety_check_questions": [
+    "Are you in a safe place right now?",
+    "Do you have access to anything you could use to hurt yourself?",
+    "Is there someone you trust who you can reach out to?",
+    "Have you eaten or slept recently?",
+    "Would you be willing to talk to a crisis counselor?"
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-01-31",
+    "note": "These templates are designed to provide immediate support while encouraging professional help."
+  }
+}
